@@ -1,0 +1,103 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('./../assets/2.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family:sans-serif;
+    
+}
+
+.container {
+    width: 500px;
+    padding: 20px;
+    background: #18202a;
+    border-radius: 10px;
+    border: 1px solid #8B4513;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+   
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.container h1, .container h2 {
+    color: #ccc;
+    margin-bottom: 10px;
+}
+
+.container h2 {
+    color: #8B4513;
+}
+
+.container label {
+    display: block;
+    text-align: left;
+    font-weight: bold;
+    color: #ccc;
+}
+
+.input-container {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.input-container input {
+    width: 100%;
+    padding: 15px;
+    padding-left: 20px; 
+    border: 3px solid #ccc;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.input-container .icon {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 40px;
+    height: 40px;
+   background-color: #18202a;
+}
+
+.container button {
+    width: 100%;
+    padding: 10px;
+    background-color: #8B4513;
+    color: #0e1218;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.container p {
+    margin-top: 20px;
+    color: #ccc;
+    text-align: left;
+}
+
+.container a {
+    color: #ccc;
+    text-decoration: none;
+}
+
+.container a:hover {
+    text-decoration: underline;
+}
