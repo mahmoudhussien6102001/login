@@ -101,3 +101,14 @@ body {
 .container a:hover {
     text-decoration: underline;
 }
+
+
+#account a {
+    text-decoration: none;
+    color :#8B4513;
+    font-weight:bold ;
+    font-size: 1.8rem;
+}
+#account a:hover{
+    text-decoration: none;
+}
